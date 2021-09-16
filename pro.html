@@ -3,12 +3,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Coding problems</title>
     <style>
         
         body{
-            
             font-family: 'Open Sans', sans-serif;
+            position: relative;
         }
         table {
             margin: auto;
@@ -41,24 +42,62 @@
             text-decoration: none;
             
         }
-        .pros {
-            text-align: center;
-        }
-        .pros a{
-            text-decoration: none;  
-            
-        }
-        .pros a:hover {
-            color: brown;
-            text-decoration: underline;
-        }
-        .pros a:visited {
-            color: rgb(255, 0, 234);
+
+        .dropbtn {
+            background-color: #010053;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
         }
 
-        .resources {
-            
-            margin-top: 40px;
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d0fafa;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            font-size: smaller;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: rgb(78, 3, 78); color: cornsilk;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #0804e4;}
+
+            .pros {
+                text-align: center;
+            }
+            .pros a{
+                text-decoration: none;  
+                
+            }
+            .pros a:hover {
+                color: brown;
+                text-decoration: underline;
+            }
+            .pros a:visited {
+                color: rgb(255, 0, 234);
+            }
+
+            .resources {
+                
+                margin-top: 40px;
 
         }
         .resources table ,.resources tr,.resources td {
@@ -121,11 +160,27 @@
         <th><a class="menu_link" href="#codeforces">Codeforces</a></th>
         <th><a class="menu_link" href="#codechef">Codechef</a></th>
         <th><a class="menu_link" href="#gfg">GeeksforGeeks</a></th>
+        <th><a class="menu_link" href="#hackerearth">HackerEarth</a></th>
+        <th><a class="menu_link" href="#hackerrank">Hackerrank</a></th>
         <th><a class="menu_link" href="#codeforces">Codeforces</a></th>
-        <th><a class="menu_link" href="#codeforces">Codeforces</a></th>
-        <th><a class="menu_link" href="#codeforces">Codeforces</a></th>
+        <th>
+            <div class="dropdown">
+                <button class="dropbtn">Links
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                
+                <div class="dropdown-content">
+                    <a href="#codeforces">codeforces</a> <hr style="margin: 0;">
+                    <a href="#codechef">codechef</a><hr style="margin: 0;">
+                    <a href="#gfg">GeeksforGeeks</a><hr style="margin: 0;">
+                    <a href="#hackerearth">hackerearth</a><hr style="margin: 0;">
+                    <a href="#hackerrank">hackerrank</a>
+                </div>
+            </div>
+        </th>
     </tr>
 </table>
+
 <hr>
 <div class="resources">
     <table>
@@ -393,12 +448,10 @@
             <tr>
                 <th>S. No.</th>
                 <th>Problem Name</th>
+                <th>Topics</th>
                 <th>Difficulty level</th>
             </tr>
-            <!-- Arrays -->
-            <tr>
-                <td colspan="3" class="topic">Arrays</td> 
-            </tr>
+           
     <!-- 1 -->
             <tr>
                 <td>1</td>
@@ -502,11 +555,6 @@
                 <td>1</td>
             </tr>
 
-            <!-- Next topic -->
-
-            <tr>
-                <td colspan="3" class="topic">Next topic</td> 
-            </tr>
     <!-- 1 -->
             <tr>
                 <td>1</td>
@@ -613,6 +661,445 @@
     
     </div>
 
+<div id="hackerearth" class="pros">
+        <h1><u>H</u> ackerearth</h1>
+            <table>
+                <caption></caption>
+                <tr>
+                    <th>S. No.</th>
+                    <th>Problem Name</th>
+                    <th>Topics</th>
+                    <th>Difficulty level</th>
+                </tr>
+        <!-- 1 -->
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://www.hackerearth.com/problem/algorithm/the-monk-and-class-marks/?fbclid=IwAR09BMLG-1NhqDlVQq0KIzSr8ZTgqrbJmdfnsXc7KnDiphgX5UmbFLoEYjE" target="_blank">The Monk and Class Marks</a> </td>
+                    <td>Sorting algorithm, map</td>
+                    <td>3</td>
+                </tr>
+        <!-- 2 -->
+                <tr>
+                    <td>2</td>
+                    <td> </td>
+                    <td>1</td>
+                </tr>
+        <!-- 3 -->
+                <tr>
+                    <td>3</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 4 -->
+                <tr>
+                    <td>4</td>
+                    <td> </td>        
+                    <td>1</td>
+                </tr>
+        <!-- 5 -->
+                <tr>
+                    <td>5</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 6 -->
+                <tr>
+                    <td>6</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 7 -->
+                <tr>
+                    <td>7</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 8 -->
+                <tr>
+                    <td>8</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 9 -->
+                <tr>
+                    <td>9</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 10 -->
+                <tr>
+                    <td>10</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 11 -->
+                <tr>
+                    <td>11</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 12 -->
+                <tr>
+                    <td>12</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 13 -->
+                <tr>
+                    <td>13</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 14 -->
+                <tr>
+                    <td>14</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 15 -->
+                <tr>
+                    <td>15</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 16 -->
+                <tr>
+                    <td>16</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 17 -->
+                <tr>
+                    <td>17</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+    
+        <!-- 1 -->
+                <tr>
+                    <td>1</td>
+                    <td> </td>
+                    <td>4</td>
+                </tr>
+        <!-- 2 -->
+                <tr>
+                    <td>2</td>
+                    <td> </td>
+                    <td>1</td>
+                </tr>
+        <!-- 3 -->
+                <tr>
+                    <td>3</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 4 -->
+                <tr>
+                    <td>4</td>
+                    <td> </td>        
+                    <td>1</td>
+                </tr>
+        <!-- 5 -->
+                <tr>
+                    <td>5</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 6 -->
+                <tr>
+                    <td>6</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 7 -->
+                <tr>
+                    <td>7</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 8 -->
+                <tr>
+                    <td>8</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 9 -->
+                <tr>
+                    <td>9</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 10 -->
+                <tr>
+                    <td>10</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 11 -->
+                <tr>
+                    <td>11</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 12 -->
+                <tr>
+                    <td>12</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 13 -->
+                <tr>
+                    <td>13</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 14 -->
+                <tr>
+                    <td>14</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 15 -->
+                <tr>
+                    <td>15</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 16 -->
+                <tr>
+                    <td>16</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+        <!-- 17 -->
+                <tr>
+                    <td>17</td>
+                    <td> </td>            
+                    <td>1</td>
+                </tr>
+            </table>
+        
+</div>
+
+<div id="hackerrank" class="pros">
+    <h1>hackerrank</h1>
+        <table>
+            <caption></caption>
+            <tr>
+                <th>S. No.</th>
+                <th>Problem Name</th>
+                <th>Topics</th>
+                <th>Difficulty level</th>
+            </tr>
+            
+    <!-- 1 -->
+            <tr>
+                <td>1</td>
+                <td> </td>
+                <td>4</td>
+            </tr>
+    <!-- 2 -->
+            <tr>
+                <td>2</td>
+                <td> </td>
+                <td>1</td>
+            </tr>
+    <!-- 3 -->
+            <tr>
+                <td>3</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 4 -->
+            <tr>
+                <td>4</td>
+                <td> </td>        
+                <td>1</td>
+            </tr>
+    <!-- 5 -->
+            <tr>
+                <td>5</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 6 -->
+            <tr>
+                <td>6</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 7 -->
+            <tr>
+                <td>7</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 8 -->
+            <tr>
+                <td>8</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 9 -->
+            <tr>
+                <td>9</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 10 -->
+            <tr>
+                <td>10</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 11 -->
+            <tr>
+                <td>11</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 12 -->
+            <tr>
+                <td>12</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 13 -->
+            <tr>
+                <td>13</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 14 -->
+            <tr>
+                <td>14</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 15 -->
+            <tr>
+                <td>15</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 16 -->
+            <tr>
+                <td>16</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 17 -->
+            <tr>
+                <td>17</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+
+    <!-- 1 -->
+            <tr>
+                <td>1</td>
+                <td> </td>
+                <td>4</td>
+            </tr>
+    <!-- 2 -->
+            <tr>
+                <td>2</td>
+                <td> </td>
+                <td>1</td>
+            </tr>
+    <!-- 3 -->
+            <tr>
+                <td>3</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 4 -->
+            <tr>
+                <td>4</td>
+                <td> </td>        
+                <td>1</td>
+            </tr>
+    <!-- 5 -->
+            <tr>
+                <td>5</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 6 -->
+            <tr>
+                <td>6</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 7 -->
+            <tr>
+                <td>7</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 8 -->
+            <tr>
+                <td>8</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 9 -->
+            <tr>
+                <td>9</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 10 -->
+            <tr>
+                <td>10</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 11 -->
+            <tr>
+                <td>11</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 12 -->
+            <tr>
+                <td>12</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 13 -->
+            <tr>
+                <td>13</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 14 -->
+            <tr>
+                <td>14</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 15 -->
+            <tr>
+                <td>15</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 16 -->
+            <tr>
+                <td>16</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+    <!-- 17 -->
+            <tr>
+                <td>17</td>
+                <td> </td>            
+                <td>1</td>
+            </tr>
+        </table>
+    
+</div>
 
 <div id="progress">
     <h3>Progess 1</h3>
@@ -636,5 +1123,14 @@
     </p>
 </div>
 
+<a href="#" style="position: sticky; bottom: 0; left: 100vw;" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 358.012 358.012" style="enable-background:new 0 0 358.012 358.012;" xml:space="preserve" height="70" width="70">
+        <g>
+            <path style="fill:#010002;" d="M179.006,358.012c98.865,0,179.006-80.141,179.006-179.006S277.871,0,179.006,0S0,80.141,0,179.006   S80.141,358.012,179.006,358.012z M84.795,234.54l-8.437-8.437L179,123.455l102.66,102.66l-8.437,8.437L179,140.335L84.795,234.54z   "/>
+        </g>
+      
+        </svg>
+    
+</a>
 </body>
 </html>
