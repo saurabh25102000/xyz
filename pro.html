@@ -24,6 +24,10 @@
             background-color: rgb(245, 245, 245);
         }
 
+        .new {
+            color: #fc0097;
+            text-shadow: 0 0 13px #cf0000, 0 0 15px #0000FF;
+        }
         .menu,.menu tr,.menu th {
             border: none;
         }
@@ -127,9 +131,9 @@
             color: rgb(85, 6, 6);
         }
         .Do {
-            font-size: 100px;
+            font-size: 80px;
             font-weight: 700;
-            text-shadow: 10px 10px 10px rgb(107, 107, 107);
+            text-shadow: 10px 10px 10px rgb(14, 14, 14);
         }
         .content-below{
             width: 70px;
@@ -140,12 +144,58 @@
         }
         .progress p{
             text-align: left;
+            
         }
         .topic {
             font-size: xx-large;
             font-weight: 900;
             padding: 10px;
         }
+
+
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+
+        /* * {
+        box-sizing: border-box;
+        }
+
+        body {
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        min-height: 100vh;
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        } */
+
+        /* h2 {
+            text-align: center;
+        } */
+
+        .progress-bar {
+            background-color: #fefefe;
+            border-radius: 3px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            height: 30px;
+            width: 500px;
+            max-width: 100%;
+        }
+
+        .progress {
+            background: #ad5389;
+            background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+            background: linear-gradient(to bottom, #3c1053, #ad5389);
+            border-radius: 3px;
+            height: 30px;
+            width: 0;
+            transition: width 0.5s ease-in;
+        }
+            
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -188,7 +238,7 @@
             <td>
                 <ul>
                     <li><span>1.</span><a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank">Beginner level questions of dsa---</a><a href="#progress">Goto progress 1</a></li>
-                    <li><span>2.</span><a href="https://cp-algorithms.com/" target="_blank">cp-algorithms---</a><a href="#progress">Goto progress </a></li>
+                    <li><span>2.</span><a href="https://cp-algorithms.com/" target="_blank">cp-algorithms---</a><a href="#progress">Goto progress </a><span class="new">New</span></li>
                     <li><span>3.</span><a href="https://a2oj.com/Ladders.html" target="_blank">Difficulty Ladders---</a><a href="#progress">Goto progress 2</a></li>
                     <li><span>4.</span><a href="https://bit.ly/ache_sawal">Achhe Sawals by Despacito CC---</a><a href="#progress">Goto progress 3</a></li>
                     <li><span>5.</span><a href="https://drive.google.com/drive/folders/1siNWtt5DH2WRo3xEZQVUNXASYWj2TLQc">8085 Programming Notes---</a><a href="#progress">Goto progress 4</a></li>
@@ -197,7 +247,7 @@
                     <li><span>8.</span><a href="https://medium.com/codex/interview-preparation-roadmap-that-got-me-into-amazon-d357049a0a68">Interview experience of Mehul Chaturvedi</a></li>
                 </ul>
             </td>
-            <td class="Do">Let's <del >Brake</del> It</td>
+            <td class="Do">Let's Brake It</td>
         </tr>
     </table>
 </div>
@@ -444,7 +494,7 @@
 
 
 
-<div id="progress">
+<!-- <div id="progress">
     <h3>Progess 1</h3>
     <p><progress min="5" max="500" value="7"></progress> <b>5-7</b> <sub>500</sub>
     </p>
@@ -461,9 +511,24 @@
     <p><progress min="0" max="100" value="0"></progress> <b>0</b> <sub>100</sub>
     </p>
     <h3>Progess 6</h3>
-    <p> <progress min="0" max="100" value="0"></progress> <b>0</b> <sub>100</sub>
-        
+    <p> <progress min="0" max="100" value="0"></progress> <b>0</b> <sub>100</sub> 
     </p>
+</div> -->
+
+<div id="progress">
+    <h2>Progress Bar</h2>
+    <div class="progress-bar">
+    <div data-size="20" class="progress"></div>
+    </div>
+    <div class="progress-bar">
+    <div data-size="40" class="progress"></div>
+    </div>
+    <div class="progress-bar">
+    <div data-size="60" class="progress"></div>
+    </div>
+    <div class="progress-bar">
+    <div data-size="80" class="progress"></div>
+    </div>
 </div>
 
 <a href="#" style="position: sticky; bottom: 0; left: 100vw;" title="Back to top">
@@ -475,5 +540,9 @@
         </svg>
     
 </a>
+
+
+
+<script src="pro.js"></script>
 </body>
 </html>
