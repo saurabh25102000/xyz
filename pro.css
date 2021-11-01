@@ -1,0 +1,234 @@
+
+        
+        body{
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            background-color: #a7a7a7;
+            background-image: linear-gradient(315deg, #f8de6b 0%, #e9e9e98f 100%); 
+        }
+        h1,h2,h3{
+            color: aqua;
+        }
+        table {
+            margin: auto;
+            width: 90vw;
+            font-size: smaller;
+            text-align: center;
+            border-radius: 10px;
+        }
+        tr,th,td {
+            /* border: 1px solid rgb(151, 151, 151); */
+            border-radius: 10px;
+        }
+        th {
+            color: #cf0000;
+            font-size: larger;
+        }
+        
+        table tr:nth-child(even){
+            background-color: #83fdff;
+            background-image: linear-gradient(90deg, #ffffff 0%, #ab9fac 100%);
+            border-radius: 10px;
+        }
+        table tr:nth-child(odd){
+            background-color: #85FFBD;
+            background-image: linear-gradient(90deg, #ab9fac 100%, #ffffff 0%);
+            border-radius: 10px;
+        }
+
+        .new {
+            color: #fc0097;
+            text-shadow: 0 0 13px #cf0000, 0 0 15px #0000FF;
+        }
+        .menu,.menu tr,.menu th {
+            border: none;
+        }
+        .menu_link{
+            color: rgba(0, 0, 0);
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .menu_link:hover {
+            text-decoration: none;
+            /* background-color: rgb(0, 0, 0); */
+            color: rgb(12, 143, 0);
+        }
+        .menu_link:visited {
+            text-decoration: none;
+            
+        }
+
+        .dropbtn {
+            background: none;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            /* background-color: #d0fafa; */
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            font-size: smaller;
+            border-radius: 10px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-image: linear-gradient(60deg ,rgb(218, 255, 158),rgba(165, 165, 165, 0.479));
+        }
+
+        .dropdown-content a:hover {background-color: rgb(78, 3, 78); color: cornsilk;font-size: larger;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {color: #0804e4;}
+
+            .pros {
+                text-align: center;
+            }
+            .pros a{
+                text-decoration: none;  
+                color: rgb(76, 5, 170);
+                font-weight: 500;
+                font-size: larger;
+                
+            }
+            .pros a:hover {
+                color: brown;
+                /* text-decoration: underline; */
+                font-size: large;
+            }
+            .pros a:visited {
+                color: rgb(52, 122, 163);
+            }
+
+            .resources {
+                
+                margin-top: 40px;
+
+        }
+        .resources table ,.resources tr,.resources td {
+            border-radius: 10px;
+
+        }
+        .resources ul li {
+            list-style: none;
+            margin: 10px 0;
+            text-align: left;
+        }
+        .resources ul li a{
+            text-decoration: none;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 1);
+            padding:2px 5px;
+            font-size: small;
+        }
+        .resources ul li a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(18, 156, 0);
+            text-decoration: none;
+            padding-left: 10px;
+            border-top-right-radius:10px ;
+            border-bottom-right-radius:10px ;
+        }
+        .resources span {
+            color: rgb(2, 0, 112);
+        }
+        .Do {
+            font-size: 200px;
+            font-weight: 700;
+            text-shadow: 10px 10px 5px #000000;
+            background-image: url('');
+        } 
+        .logo {
+            margin: 0;
+            padding: 0;
+            width: 640px;
+        }
+        .logo img{
+            border-radius: 10px;
+        }
+        .content-below{
+            width: 70px;
+            border: none;
+            border-bottom:5px dotted;
+            border-bottom-color:rgb(164, 158, 255);
+        
+        }
+        .progress p{
+            text-align: left;
+            
+        }
+        .topic {
+            font-size: xx-large;
+            font-weight: 900;
+            padding: 10px;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+
+        /* * {
+        box-sizing: border-box;
+        }
+
+        body {
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        min-height: 100vh;
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        } */
+
+        /* h2 {
+            text-align: center;
+        } */
+
+        .progress-bar {
+            background-color: #fefefe;
+            border-radius: 3px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            height: 30px;
+            width: 500px;
+            max-width: 100%;
+        }
+
+        .progress {
+            background: #ad5389;
+            background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+            background: linear-gradient(to bottom, #3c1053, #ad5389);
+            border-radius: 3px;
+            height: 30px;
+            width: 0;
+            transition: width 0.5s ease-in;
+        }
+        
+        .collab {
+            text-decoration:none;
+            color: #ffffff;
+        }
+     
