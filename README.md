@@ -1,3 +1,3 @@
 # xyz
 
-![image](https://user-images.githubusercontent.com/83568434/136006827-b0bc2d9a-2928-4766-a882-8c69e606a679.png)
+![image](https://user-images.githubusercontent.com/83568434/139676673-d4df59b7-99a6-4a5d-a5f5-547f5ad88674.png)
