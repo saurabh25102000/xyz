@@ -1,9 +1,12 @@
-body{
+*{
+    font-family: 'Baloo 2', cursive;
+}  
+/* body{
     font-family: 'Open Sans', sans-serif;
     position: relative;
     background-color: #000000;
     /* background-image: linear-gradient(315deg, #f8de6b 0%, #e9e9e98f 100%);  */
-}
+} */
 h1,h2,h3{
     color: aqua;
 }
