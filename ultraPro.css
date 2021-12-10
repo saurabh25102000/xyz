@@ -1,5 +1,7 @@
-.center-heading{
+*{
     font-family: 'Baloo 2', cursive;
+}
+.center-heading{
     font-size: 40px;
 }
 
